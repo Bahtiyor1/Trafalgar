@@ -33,6 +33,12 @@ header{
     line-height: 22.59px;
     text-align: left;
     color: #8F8A99;
+    transition: all 0.5s;
+}
+
+.list_item > a:hover {
+    color: black;
+    transition: all 0.5s;
 }
 
 
@@ -44,11 +50,10 @@ header{
 
 .text {
     margin: 176px 130px 130px 0px;
-    
 }
 
 
-.button {
+.button1 {
     margin-top: 35px;
     background-color: grey;
     color: white;
@@ -61,34 +66,39 @@ header{
     font-weight: 400;
     line-height: 21.34px;
     transition: all 0.2s;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
 }
 
-.button:hover {
+.button1:hover {
     background-color: rgb(69, 143, 246, 1);
-    transition: all 0.2s;
+    transition: all 0.5s;
+    border: none;
 }
 
 
 .Trafal {
     margin-top: 26px;
-    padding: 0px 240px 0px 0px;
     font-size: 19px;
     color: rgba(125, 121, 135, 1);
     font-family: Mulish;
     font-size: 19px;
     font-weight: 300;
     line-height: 32px;
+    width: 300px;
 }
 
 
 .Virtual {
-    padding: 0px 150px 0px 0px;
     font-size: 45px;
+    width: 400px;
 }
 
 
 .doc_img {
     margin-top: 91px;
+    
 }
 
 
@@ -127,8 +137,8 @@ main {
 
 
 .card {
-    width: 400px;
-    height: 380px;
+    width: 320px;
+    height: 350px;
     background-color: #E7E7E7;
     border-radius: 20px;
     display: flex;
@@ -157,7 +167,7 @@ main {
     margin-top: 36px;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -180,3 +190,275 @@ main {
     width: 280px;
 }
 
+
+.button {
+    color:#458FF6;
+    border: 1.4px solid #458FF6;
+    width: 200px;
+    height: 56.74px;
+    background-color: white;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32.23px 520px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    color: white;
+    border: 1.4px solid #458FF6;
+    transition: all 0.5s;
+    background-color: #458FF6;
+}
+
+.Info {
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 76.26px;
+}
+
+.wrapper_reklama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 395.18px;
+    row-gap: 50px;
+}
+
+
+.title > h1 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.title > p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
+}
+
+
+.title > .button2 {
+    color:#458FF6;
+    border: 1.4px solid #458FF6;
+    width: 200px;
+    height: 56.74px;
+    background-color: white;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    transition: all 0.5s;
+}
+
+.title > .button2:hover {
+        color: white;
+        border: 1.4px solid #458FF6;
+        background-color: #458FF6;
+        transition: all 0.5s;
+}
+
+.second_section > h1 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 152.85px;
+}
+
+
+
+.wrapper_card_second {
+     width: 100%;
+    margin-top: 109.43px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.section2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.card_text {
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 20px;
+    width: 251px;
+    padding-left: 30px;
+}
+
+
+.card_description2 {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+    margin-top: 15px;
+    width: 266px;
+    padding-left: 30px;
+}
+
+.Read > a {
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4089ED;
+}
+
+.Read > img {
+    margin-left: 10px;
+}
+
+.Read >img::before {
+    content: url(./assec/icons/strelka.png);
+}
+
+
+.Read {
+    margin-top: 18px;
+    padding-left: 30px;
+}
+
+.button3 {
+    color:#458FF6;
+    border: 1.4px solid #458FF6;
+    width: 200px;
+    height: 56.74px;
+    background-color: white;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    margin: 45px 525px 0px;
+    transition: all 0.5s;
+}
+
+.button3:hover {
+        color: white;
+        border: 1.4px solid #458FF6;
+        transition: all 0.5s;
+        background-color: #458FF6;
+
+}
+
+
+footer {
+    height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 159px;
+}
+
+
+.logo_description > p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 386px;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.Company > h3 {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    text-align: left;  
+    color: white;
+}
+
+.Company > p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;    
+}
+
+
+.Region > h3 {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    text-align: left;
+    color: white;    
+}
+
+.Region > p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;    
+}
+
+.Help > h3 {
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23.85px;
+    text-align: left;
+    color: white;    
+}
+
+.Help > p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;    
+}
